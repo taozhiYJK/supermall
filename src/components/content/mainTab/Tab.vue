@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<tabbar>
+		<tabbar class="tabbar">
       <tabbaritem path="/home" activeColor="blue">
         <img slot="item_icon" src="@/assets/img/tabbar/home.png" alt="">
         <img slot="item_icon_active" src="@/assets/img/tabbar/home_active.png" alt="">
@@ -38,7 +38,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 
 </style>
